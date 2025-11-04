@@ -21,5 +21,12 @@ namespace Atividade_Aurivam_03_11_2025
         {
 
         }
+
+        private void btn_voltar_Click(object sender, EventArgs e)
+        {
+            FrmMenuPrincipal abrir = new FrmMenuPrincipal();
+            abrir.Show();
+            this.Hide();
+        }
     }
 }

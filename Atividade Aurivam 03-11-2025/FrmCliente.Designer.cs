@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCliente));
             this.panel = new System.Windows.Forms.Panel();
+            this.txt_codigo_cliente = new System.Windows.Forms.TextBox();
+            this.txt_idade_cliente = new System.Windows.Forms.TextBox();
+            this.txt_nome_cliente = new System.Windows.Forms.TextBox();
+            this.lbl_codigo = new System.Windows.Forms.Label();
+            this.lbl_idade = new System.Windows.Forms.Label();
             this.lbl_nome_cliente = new System.Windows.Forms.Label();
             this.lbl_dados_cliente = new System.Windows.Forms.Label();
             this.btn_voltar = new System.Windows.Forms.Button();
-            this.lbl_idade = new System.Windows.Forms.Label();
-            this.lbl_codigo = new System.Windows.Forms.Label();
-            this.txt_nome_cliente = new System.Windows.Forms.TextBox();
-            this.txt_idade_cliente = new System.Windows.Forms.TextBox();
-            this.txt_codigo_cliente = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -58,6 +58,47 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(735, 252);
             this.panel.TabIndex = 15;
+            // 
+            // txt_codigo_cliente
+            // 
+            this.txt_codigo_cliente.Location = new System.Drawing.Point(148, 185);
+            this.txt_codigo_cliente.Name = "txt_codigo_cliente";
+            this.txt_codigo_cliente.Size = new System.Drawing.Size(187, 20);
+            this.txt_codigo_cliente.TabIndex = 3;
+            // 
+            // txt_idade_cliente
+            // 
+            this.txt_idade_cliente.Location = new System.Drawing.Point(148, 122);
+            this.txt_idade_cliente.Name = "txt_idade_cliente";
+            this.txt_idade_cliente.Size = new System.Drawing.Size(187, 20);
+            this.txt_idade_cliente.TabIndex = 2;
+            // 
+            // txt_nome_cliente
+            // 
+            this.txt_nome_cliente.Location = new System.Drawing.Point(148, 63);
+            this.txt_nome_cliente.Name = "txt_nome_cliente";
+            this.txt_nome_cliente.Size = new System.Drawing.Size(187, 20);
+            this.txt_nome_cliente.TabIndex = 1;
+            // 
+            // lbl_codigo
+            // 
+            this.lbl_codigo.AutoSize = true;
+            this.lbl_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigo.Location = new System.Drawing.Point(26, 184);
+            this.lbl_codigo.Name = "lbl_codigo";
+            this.lbl_codigo.Size = new System.Drawing.Size(62, 18);
+            this.lbl_codigo.TabIndex = 16;
+            this.lbl_codigo.Text = "Código";
+            // 
+            // lbl_idade
+            // 
+            this.lbl_idade.AutoSize = true;
+            this.lbl_idade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_idade.Location = new System.Drawing.Point(26, 121);
+            this.lbl_idade.Name = "lbl_idade";
+            this.lbl_idade.Size = new System.Drawing.Size(48, 18);
+            this.lbl_idade.TabIndex = 15;
+            this.lbl_idade.Text = "Idade";
             // 
             // lbl_nome_cliente
             // 
@@ -88,47 +129,7 @@
             this.btn_voltar.TabIndex = 4;
             this.btn_voltar.Text = "Voltar";
             this.btn_voltar.UseVisualStyleBackColor = true;
-            // 
-            // lbl_idade
-            // 
-            this.lbl_idade.AutoSize = true;
-            this.lbl_idade.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_idade.Location = new System.Drawing.Point(26, 121);
-            this.lbl_idade.Name = "lbl_idade";
-            this.lbl_idade.Size = new System.Drawing.Size(48, 18);
-            this.lbl_idade.TabIndex = 15;
-            this.lbl_idade.Text = "Idade";
-            // 
-            // lbl_codigo
-            // 
-            this.lbl_codigo.AutoSize = true;
-            this.lbl_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codigo.Location = new System.Drawing.Point(26, 184);
-            this.lbl_codigo.Name = "lbl_codigo";
-            this.lbl_codigo.Size = new System.Drawing.Size(62, 18);
-            this.lbl_codigo.TabIndex = 16;
-            this.lbl_codigo.Text = "Código";
-            // 
-            // txt_nome_cliente
-            // 
-            this.txt_nome_cliente.Location = new System.Drawing.Point(148, 63);
-            this.txt_nome_cliente.Name = "txt_nome_cliente";
-            this.txt_nome_cliente.Size = new System.Drawing.Size(187, 20);
-            this.txt_nome_cliente.TabIndex = 1;
-            // 
-            // txt_idade_cliente
-            // 
-            this.txt_idade_cliente.Location = new System.Drawing.Point(148, 122);
-            this.txt_idade_cliente.Name = "txt_idade_cliente";
-            this.txt_idade_cliente.Size = new System.Drawing.Size(187, 20);
-            this.txt_idade_cliente.TabIndex = 2;
-            // 
-            // txt_codigo_cliente
-            // 
-            this.txt_codigo_cliente.Location = new System.Drawing.Point(148, 185);
-            this.txt_codigo_cliente.Name = "txt_codigo_cliente";
-            this.txt_codigo_cliente.Size = new System.Drawing.Size(187, 20);
-            this.txt_codigo_cliente.TabIndex = 3;
+            this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
             // 
             // pictureBox1
             // 

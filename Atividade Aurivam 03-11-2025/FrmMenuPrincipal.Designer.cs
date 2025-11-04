@@ -46,12 +46,13 @@
             this.btn_cadastro_cliente.TabIndex = 0;
             this.btn_cadastro_cliente.Text = "Cadastro Cliente";
             this.btn_cadastro_cliente.UseVisualStyleBackColor = false;
+            this.btn_cadastro_cliente.Click += new System.EventHandler(this.btn_cadastro_cliente_Click);
             // 
             // lbl_petcare
             // 
             this.lbl_petcare.AutoSize = true;
             this.lbl_petcare.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_petcare.Location = new System.Drawing.Point(350, 57);
+            this.lbl_petcare.Location = new System.Drawing.Point(347, 57);
             this.lbl_petcare.Name = "lbl_petcare";
             this.lbl_petcare.Size = new System.Drawing.Size(104, 25);
             this.lbl_petcare.TabIndex = 1;
@@ -67,6 +68,7 @@
             this.btn_cadastro_animal.TabIndex = 2;
             this.btn_cadastro_animal.Text = "Cadastro Animal";
             this.btn_cadastro_animal.UseVisualStyleBackColor = false;
+            this.btn_cadastro_animal.Click += new System.EventHandler(this.btn_cadastro_animal_Click);
             // 
             // btn_cadastro_veterinario
             // 
@@ -78,6 +80,7 @@
             this.btn_cadastro_veterinario.TabIndex = 3;
             this.btn_cadastro_veterinario.Text = "Cadastro Veterinário";
             this.btn_cadastro_veterinario.UseVisualStyleBackColor = false;
+            this.btn_cadastro_veterinario.Click += new System.EventHandler(this.btn_cadastro_veterinario_Click);
             // 
             // btn_produtos
             // 
@@ -116,6 +119,7 @@
             this.Controls.Add(this.btn_cadastro_cliente);
             this.Name = "FrmMenuPrincipal";
             this.Text = "FrmMenuPrincipal";
+            this.Load += new System.EventHandler(this.FrmMenuPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

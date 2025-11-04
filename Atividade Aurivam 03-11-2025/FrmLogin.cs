@@ -37,5 +37,11 @@ namespace Atividade_Aurivam_03_11_2025
                 MessageBox.Show("Usuario ou Senha incorretos!");
             }
         }
+
+        private void btn_limpar_Click(object sender, EventArgs e)
+        {
+            txt_senha.Clear();
+            txt_usuario.Clear();
+        }
     }
 }

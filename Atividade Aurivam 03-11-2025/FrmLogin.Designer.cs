@@ -46,9 +46,10 @@
             this.btn_limpar.Location = new System.Drawing.Point(541, 298);
             this.btn_limpar.Name = "btn_limpar";
             this.btn_limpar.Size = new System.Drawing.Size(110, 50);
-            this.btn_limpar.TabIndex = 10;
+            this.btn_limpar.TabIndex = 4;
             this.btn_limpar.Text = "Limpar";
             this.btn_limpar.UseVisualStyleBackColor = false;
+            this.btn_limpar.Click += new System.EventHandler(this.btn_limpar_Click);
             // 
             // btn_entrar
             // 
@@ -57,7 +58,7 @@
             this.btn_entrar.Location = new System.Drawing.Point(411, 298);
             this.btn_entrar.Name = "btn_entrar";
             this.btn_entrar.Size = new System.Drawing.Size(110, 50);
-            this.btn_entrar.TabIndex = 9;
+            this.btn_entrar.TabIndex = 3;
             this.btn_entrar.Text = "Entrar";
             this.btn_entrar.UseVisualStyleBackColor = false;
             this.btn_entrar.Click += new System.EventHandler(this.btn_entrar_Click);
@@ -67,14 +68,14 @@
             this.txt_senha.Location = new System.Drawing.Point(513, 239);
             this.txt_senha.Name = "txt_senha";
             this.txt_senha.Size = new System.Drawing.Size(128, 20);
-            this.txt_senha.TabIndex = 8;
+            this.txt_senha.TabIndex = 2;
             // 
             // txt_usuario
             // 
             this.txt_usuario.Location = new System.Drawing.Point(513, 180);
             this.txt_usuario.Name = "txt_usuario";
             this.txt_usuario.Size = new System.Drawing.Size(128, 20);
-            this.txt_usuario.TabIndex = 6;
+            this.txt_usuario.TabIndex = 1;
             // 
             // lbl_senha
             // 

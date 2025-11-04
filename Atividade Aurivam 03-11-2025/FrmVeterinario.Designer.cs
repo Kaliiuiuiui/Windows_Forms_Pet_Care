@@ -48,7 +48,7 @@
             this.btn_voltar.Location = new System.Drawing.Point(58, 478);
             this.btn_voltar.Name = "btn_voltar";
             this.btn_voltar.Size = new System.Drawing.Size(200, 45);
-            this.btn_voltar.TabIndex = 12;
+            this.btn_voltar.TabIndex = 4;
             this.btn_voltar.Text = "Voltar";
             this.btn_voltar.UseVisualStyleBackColor = true;
             this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);
@@ -115,21 +115,21 @@
             this.txt_nome_vet.Location = new System.Drawing.Point(143, 63);
             this.txt_nome_vet.Name = "txt_nome_vet";
             this.txt_nome_vet.Size = new System.Drawing.Size(128, 20);
-            this.txt_nome_vet.TabIndex = 17;
+            this.txt_nome_vet.TabIndex = 1;
             // 
             // txt_idade_vet
             // 
             this.txt_idade_vet.Location = new System.Drawing.Point(143, 145);
             this.txt_idade_vet.Name = "txt_idade_vet";
             this.txt_idade_vet.Size = new System.Drawing.Size(128, 20);
-            this.txt_idade_vet.TabIndex = 18;
+            this.txt_idade_vet.TabIndex = 2;
             // 
             // txt_codigo_vet
             // 
             this.txt_codigo_vet.Location = new System.Drawing.Point(143, 233);
             this.txt_codigo_vet.Name = "txt_codigo_vet";
             this.txt_codigo_vet.Size = new System.Drawing.Size(128, 20);
-            this.txt_codigo_vet.TabIndex = 19;
+            this.txt_codigo_vet.TabIndex = 3;
             // 
             // pictureBox1
             // 

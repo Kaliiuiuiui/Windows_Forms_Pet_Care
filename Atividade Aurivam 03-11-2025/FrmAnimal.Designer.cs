@@ -111,7 +111,7 @@
             this.txt_id.Location = new System.Drawing.Point(172, 103);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(178, 20);
-            this.txt_id.TabIndex = 6;
+            this.txt_id.TabIndex = 1;
             this.txt_id.TabStop = false;
             // 
             // txt_peso
@@ -119,7 +119,7 @@
             this.txt_peso.Location = new System.Drawing.Point(172, 144);
             this.txt_peso.Name = "txt_peso";
             this.txt_peso.Size = new System.Drawing.Size(178, 20);
-            this.txt_peso.TabIndex = 7;
+            this.txt_peso.TabIndex = 2;
             this.txt_peso.TabStop = false;
             // 
             // txt_cor
@@ -127,7 +127,7 @@
             this.txt_cor.Location = new System.Drawing.Point(172, 183);
             this.txt_cor.Name = "txt_cor";
             this.txt_cor.Size = new System.Drawing.Size(178, 20);
-            this.txt_cor.TabIndex = 8;
+            this.txt_cor.TabIndex = 3;
             this.txt_cor.TabStop = false;
             // 
             // txt_nome
@@ -135,7 +135,7 @@
             this.txt_nome.Location = new System.Drawing.Point(172, 222);
             this.txt_nome.Name = "txt_nome";
             this.txt_nome.Size = new System.Drawing.Size(178, 20);
-            this.txt_nome.TabIndex = 9;
+            this.txt_nome.TabIndex = 4;
             this.txt_nome.TabStop = false;
             // 
             // txt_detalhe
@@ -143,7 +143,7 @@
             this.txt_detalhe.Location = new System.Drawing.Point(172, 270);
             this.txt_detalhe.Name = "txt_detalhe";
             this.txt_detalhe.Size = new System.Drawing.Size(178, 20);
-            this.txt_detalhe.TabIndex = 10;
+            this.txt_detalhe.TabIndex = 5;
             this.txt_detalhe.TabStop = false;
             // 
             // btn_voltar
@@ -152,7 +152,7 @@
             this.btn_voltar.Location = new System.Drawing.Point(51, 481);
             this.btn_voltar.Name = "btn_voltar";
             this.btn_voltar.Size = new System.Drawing.Size(200, 45);
-            this.btn_voltar.TabIndex = 11;
+            this.btn_voltar.TabIndex = 6;
             this.btn_voltar.Text = "Voltar";
             this.btn_voltar.UseVisualStyleBackColor = true;
             this.btn_voltar.Click += new System.EventHandler(this.btn_voltar_Click);

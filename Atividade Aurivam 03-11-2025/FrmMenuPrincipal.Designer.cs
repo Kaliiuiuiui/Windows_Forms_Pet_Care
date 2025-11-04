@@ -43,7 +43,7 @@
             this.btn_cadastro_cliente.Location = new System.Drawing.Point(302, 115);
             this.btn_cadastro_cliente.Name = "btn_cadastro_cliente";
             this.btn_cadastro_cliente.Size = new System.Drawing.Size(195, 42);
-            this.btn_cadastro_cliente.TabIndex = 0;
+            this.btn_cadastro_cliente.TabIndex = 1;
             this.btn_cadastro_cliente.Text = "Cadastro Cliente";
             this.btn_cadastro_cliente.UseVisualStyleBackColor = false;
             this.btn_cadastro_cliente.Click += new System.EventHandler(this.btn_cadastro_cliente_Click);

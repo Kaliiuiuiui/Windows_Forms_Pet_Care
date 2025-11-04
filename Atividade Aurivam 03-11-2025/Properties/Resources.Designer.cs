@@ -93,6 +93,26 @@ namespace Atividade_Aurivam_03_11_2025.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gir_invader_zim {
+            get {
+                object obj = ResourceManager.GetObject("gir-invader-zim", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hello {
+            get {
+                object obj = ResourceManager.GetObject("hello", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap studio_ghibli_walking_GIF {
             get {
                 object obj = ResourceManager.GetObject("studio ghibli walking GIF", resourceCulture);

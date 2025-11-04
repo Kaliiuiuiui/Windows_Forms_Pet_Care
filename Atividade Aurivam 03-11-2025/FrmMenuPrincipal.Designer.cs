@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenuPrincipal));
             this.btn_cadastro_cliente = new System.Windows.Forms.Button();
             this.lbl_petcare = new System.Windows.Forms.Label();
             this.btn_cadastro_animal = new System.Windows.Forms.Button();
@@ -117,6 +118,7 @@
             this.Controls.Add(this.btn_cadastro_animal);
             this.Controls.Add(this.lbl_petcare);
             this.Controls.Add(this.btn_cadastro_cliente);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMenuPrincipal";
             this.Text = "FrmMenuPrincipal";
             this.Load += new System.EventHandler(this.FrmMenuPrincipal_Load);
